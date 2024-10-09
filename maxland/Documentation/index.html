@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>MaxLand - Real Estate & Property HTML Template</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/jquery.highlight.css" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/scrollbar.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!--Page Wrapper-->
+    <div class="page-wrapper">
+
+        <!--Sidebar-->
+        <aside id="sidebar">
+
+            <!--Toggle Button-->
+            <div class="button-container clearfix">
+                <div class="menu-toggle flaticon-menu10"></div>
+            </div>
+
+            <!--Menu Box-->
+            <div class="menu-box">
+                <!--Logo-->
+                <br>
+                <div class="logo text-right">
+                    <a href="#" target="_blank">
+                        <img src="images/logo.png" alt="ai-creator" class="img-fluid w-100">
+                    </a>
+                </div>
+
+                <!--Sticky Menu-->
+                <nav class="sticky-menu">
+                    <ul>
+                        <li class="current"><a href="#introduction">Introduction <span
+                                    class="fa fa-arrow-right"></span></a></li>
+                        <li><a href="#html-structure">HTML Structure <span class="fa fa-arrow-right"></span></a></li>
+                        <li><a href="#css-structure">CSS Files and Structure <span class="fa fa-arrow-right"></span></a>
+                        </li>
+                        <li><a href="#javascript">Javascript <span class="fa fa-arrow-right"></span></a></li>
+                        <li><a href="#tutorial">Tutorial<span class="fa fa-arrow-right"></span></a></li>
+                        <li><a href="#sources-credits">Sources and Credits <span class="fa fa-arrow-right"></span></a>
+                        </li>
+                        <li><a href="#support">Support <span class="fa fa-arrow-right"></span></a></li>
+                    </ul>
+
+                </nav>
+
+            </div>
+
+            <div class="copyright">Copyright &copy;
+                <a href="https://themeforest.net/user/themefax" target="_blank">ThemeFax</a>
+                2024
+            </div>
+        </aside>
+
+        <div id="content-section">
+
+            <!--Introduction Section-->
+            <section class="section introduction" id="introduction">
+
+                <br>
+                <div class="sec-content">
+                    <h2>MaxLand</h2>
+                    <h3>Real Estate & Property HTML Template</h3>
+
+                    <div class="separator"></div>
+
+                    <strong>Created :</strong> 10/03/2024<br>
+                    <strong>By :</strong>ThemeFax<br>
+
+                    <br>
+                    <p>Thank you for purchasing <strong>MaxLand</strong> - Real Estate & Property HTML Template.
+                        If
+                        you have any questions that are beyond the scope of this help file, please feel free to email or
+                        put a
+                        ticket at Support Center .<br>Thankyou so much!</p>
+                    <br />
+
+                    <h3 class="content-title">Template Features</h3>
+                    <br />
+                    <ul class="checkbox">
+                        <li>Clean & Simple Design</li>
+                        <li>Advance Bootstrap v5.x Framework </li>
+                        <li>HTML5 & CSS3 </li>
+                        <li>Fully Responsive Design </li>
+                        <li>All files are well commented </li>
+                        <li>All Code are W3C validate</li>
+                        <li>Crossbrowser Compatible with Firefox, Safari, Opera, Chrome </li>
+                        <li>Extensive Documentation</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!--HTML Structure-->
+            <section class="section html-structure" id="html-structure">
+                <div class="sec-title">
+                    <span class="icon fa fa-th-large"></span>
+                    <h2>HTML Structure</h2>
+                </div>
+
+                <br>
+                <div class="sec-content">
+
+                    <h3>The html template uses Latest <strong>Bootstrap v5.x</strong> with valid HTML5 tags. This
+                        theme is a responisve layout with 4 column Support column. All of the information in content
+                        area is nested within a class and comes with predefined classes.</h3>
+
+                    <h3 class="content-title">Basic Grid HTML</h3>
+                    <p>For a simple two column layout, create a .container and add the appropriate number of .col-md*
+                        columns. </p>
+                    <p>Given this example, we have .col-md-4 and .col-md-8, making for 12 total columns and a complete
+                        row.</p>
+                    <br />
+                    <pre class="code" data-language="html">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">...</div>
+            <div class="col-md-8">...</div>
+        </div>
+    </div>
+
+</pre>
+                    <br />
+                    <h3 class="content-title">Nesting Columns</h3>
+                    <p>To nest your content with the default grid, add a new .container and set of .col-md* columns
+                        within an existing .col-md* column. Nested rows should include a set of columns that add up to
+                        the number of columns of its parent.</p>
+                    <br />
+                    <pre class="code" data-language="html">
+
+    <div class="container">
+        <div class="col-md-9">
+            Level 1 column
+            <div class="row">
+                <div class="col-md-8">Level 2</div>
+                <div class="col-md-4">Level 2</div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            Level 2 column
+        </div>
+    </div>
+
+</pre>
+                </div>
+
+            </section>
+
+
+            <!--SCSS Structure-->
+            <section class="section css-structure" id="css-structure">
+                <div class="sec-title">
+                    <span class="icon fa fa-at"></span>
+                    <h2>CSS Files and Structure</h2>
+                </div>
+
+                <br>
+                <div class="sec-content">
+                    <strong>
+                        <h3>CSS Structure</h3>
+                    </strong>
+                    <h3>Mainly four main CSS files are used in this theme. The first one
+                        <strong>bootstrap.min.css</strong>, second one is <strong>spacing.css</strong>, third one
+                        is <strong>style.css</strong> and the fourth one
+                        is <strong>responsive.css</strong> which for this template
+                    </h3>
+                    <p>If you would like to edit a specific section of the site, simply find the appropriate label in
+                        the CSS file, and then scroll down until you find the appropriate style that needs to be edited.
+                    </p>
+                    <br />
+                    <p>These are the css files that are loaded into templates in top of style.css file labled as
+                        <b>imported css</b>.
+                    </p>
+                    <br />
+                    <pre class="code" data-language="css">
+
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!-- animate -->
+    <link rel="stylesheet" href="assets/css/animate.css">
+
+     <!-- slick slider -->
+    <link rel="stylesheet" href="assets/css/slick.css">
+
+    <!-- venobox -->
+    <link rel="stylesheet" href="assets/css/venobox.min.css">
+
+    <!-- nice select -->
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+
+    <!-- select2 -->
+    <link rel="stylesheet" href="assets/css/select2.min.css">
+
+    <!-- animated barfiller -->
+    <link rel="stylesheet" href="assets/css/animated_barfiller.css">
+
+    <!-- summernote -->
+    <link rel="stylesheet" href="assets/css/summernote.min.css">
+
+    <!-- scroll button -->
+    <link rel="stylesheet" href="assets/css/scroll_button.css">
+
+    <!-- bar graph -->
+    <link rel="stylesheet" href="assets/css/jquery.simple-bar-graph.min.css">
+
+    <!-- spacing -->
+    <link rel="stylesheet" href="assets/css/utilities.css">
+
+    <!-- style -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- responsive -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+                </pre>
+
+                    <br />
+                    <h3 class="content-title">Fonts</h3>
+
+                    <p>By default, the template loads this font from Google Web Font Services, you can change the font
+                        with the one that suits you best.</p>
+                    <br />
+                    <pre class="code" data-language="css">
+
+
+    <!-- Merriweather & Roboto -->
+    @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+
+                </pre>
+                </div>
+
+            </section>
+
+            <!--Javascript-->
+            <section class="section javascript" id="javascript">
+                <div class="sec-title">
+                    <span class="icon fa fa-code"></span>
+                    <h2>Jquery and javascript</h2>
+                </div>
+
+                <br>
+                <div class="sec-content">
+
+                    <h3>This theme imports three types of Javascript files.</h3>
+                    <ul>
+                        <li>jQuery</li>
+                        <li>Custom scripts <strong>(main.js)</strong></li>
+                        <li>Some plugins</li>
+                        <br>
+                        <li><strong>jQuery</strong> is a Javascript library that greatly reduces the amount of code that
+                            you must write.</li>
+                        <li>Most of the animation in this site is carried out from the customs scripts. There are a few
+                            functions worth looking over.</li>
+                    </ul>
+                    <br>
+                    <p>In addition to the custom scripts, I have implemented few "tried and true" plugins to create the
+                        effects. This plugin is packed, so you won't need to manually edit anything in the file. The
+                        only necessary thing to know is how to call the method</p>
+                    <br />
+                    <p>These are the JS files that are loaded into templates in end of the Body Section.</p>
+                    <br />
+                    <pre class="code" data-language="html">
+
+
+    <!--jquery library js-->
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+
+    <!--bootstrap js-->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <!--font-awesome js-->
+    <script src="assets/js/Font-Awesome.js"></script>
+
+    <!--nice-select js-->
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+
+    <!--select-2 js-->
+    <script src="assets/js/select2.min.js"></script>
+
+    <!--slick js-->
+    <script src="assets/js/slick.min.js"></script>
+
+    <!--marquee js-->
+    <script src="assets/js/jquery.marquee.min.js"></script>
+
+    <!--YTPlayer js-->
+    <script src="assets/js/jquery.youtube-background.min.js"></script>
+
+    <!--wow js-->
+    <script src="assets/js/wow.min.js"></script>
+
+    <!--animated barfiller js-->
+    <script src="assets/js/animated_barfiller.js"></script>
+
+    <!--simple-bar-graph js-->
+    <script src="assets/js/jquery.simple-bar-graph.min.js"></script>
+
+    <!--sticky sidebar js-->
+    <script src="assets/js/sticky_sidebar.js"></script>
+
+    <!--summernote js-->
+    <script src="assets/js/summernote.min.js"></script>
+
+    <!--scroll button js-->
+    <script src="assets/js/scroll_button.js"></script>
+
+    <!--main/custom js-->
+    <script src="assets/js/script.js"></script>
+
+                </pre>
+
+                </div>
+
+            </section>
+
+
+            <!--Sources and Credits-->
+            <section class="section tutorial" id="tutorial">
+                <div class="sec-title">
+                    <span class="icon fa fa-credit-card"></span>
+                    <h2>Tutorial</h2>
+                </div>
+
+                <br>
+                <!-- logo -->
+                <div class="sec-content">
+                    <h3 class="content-title">Logo</h3><!-- /.content-title -->
+                    <br />
+                    <p>Lets start updating the template. Open index.html file and follow the steps.</p>
+                    <p>Most of the updates are same for all pages. So will explain once here.</p>
+                    <br />
+                    <pre class="code" data-language="html">
+
+    <!-- header logo -->
+    <a class="navbar-brand" href="index.html">
+        <img src="assets/images/logo_1.png" alt="MaxLand" class="img-fluid">
+    </a>
+    <!-- header logo -->
+                </pre>
+
+                    <p>Search the name "logo" in the HTML files by opening the files in your code editor and replace
+                        "images/logo.png" with your logo image url source or website name .</p>
+                    <br />
+
+                    <!-- features -->
+                    <div class="sec-content">
+                        <h3 class="content-title">Services</h3>
+                        <br />
+                        <p>This is the basic structure.</p>
+                        <br />
+                        <pre class="code" data-language="html">
+
+    <!-- PROPERTY -->
+    <div class="col-xl-4 col-md-6 wow fadeInUp" data-wow-duration="1.5s">
+        <div class="single_property">
+            <div class="single_property_img">
+                <img src="assets/images/property_1.jpg" alt="img" class="img-fluid w-100">
+                <a class="feature_link" href="#">for rent</a>
+                <a class="feature_link feature" href="#">Featured</a>
+                <ul class="d-flex flex-wrap">
+                    <li><a href="#"><i class="fas fa-share-alt"></i></a></li>
+                    <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                    <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                </ul>
+            </div>
+            <div class="single_property_text">
+                <div class="single_property_top">
+                    <a class="item_title" href="property_details.html">Hermosa Casa al Norte</a>
+                    <p><i class="fas fa-map-marker-alt"></i>28B Highgate Road, London</p>
+                    <ul class="d-flex flex-wrap">
+                        <li>
+                            <span><img src="assets/images/bad.png" alt="img" class="img-fluid w-100"></span>
+                            8 Beds
+                        </li>
+                        <li>
+                            <span><img src="assets/images/bathtab.png" alt="img"
+                                    class="img-fluid w-100"></span>
+                            6 Baths
+                        </li>
+                        <li>
+                            <span><img src="assets/images/squre.png" alt="img"
+                                    class="img-fluid w-100"></span>
+                            2400 Sq Ft
+                        </li>
+                    </ul>
+                </div>
+                <div class="single_property_bottom d-flex flex-wrap justify-content-between">
+                    <a class="read_btn" href="property_details.html">More Details<i
+                            class="fas fa-arrow-right"></i></a>
+                    <p>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>4.5</span>
+                    </p>
+                </div>
+                <span class="property_price">$12,000</span>
+            </div>
+        </div>
+    </div>
+    <!-- PROPERTY -->
+
+                </pre>
+
+                        <p>Search the name "feature" in the HTML files by opening the files in your code editor and
+                            replace the feature names in "h5 tag" with your features name .</p>
+                        <br />
+
+                        <!-- nav menu -->
+                        <h3 class="content-title">Menu</h3>
+                        <br />
+                        <p>This is the basic structure.</p>
+
+                        <pre class="code" data-language="html">
+
+    <!-- main menu start-->
+    <nav class="navbar navbar-expand-lg main_menu">
+        <div class="container container_large">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/images/logo_1.png" alt="MaxLand" class="img-fluid">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars bar_icon"></i>
+                <i class="far fa-times close_icon"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home <i class="far fa-angle-down"></i></a>
+                        <ul class="droap_menu">
+                            <li><a class="active" href="index.html">home style 01</a></li>
+                            <li><a href="index_2.html">home style 02</a></li>
+                            <li><a href="index_3.html">home style 03</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about_us.html">about us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Property <i class="far fa-angle-down"></i></a>
+                        <ul class="droap_menu">
+                            <li><a href="property_grid_view.html">Property grid view</a></li>
+                            <li><a href="property_list_view.html">Property list view</a></li>
+                            <li><a href="property_left_sidebar.html">Property left sidebar</a></li>
+                            <li><a href="property_right_sidebar.html">Property right sidebar</a></li>
+                            <li><a href="property_details.html">Property details</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">pages <i class="far fa-angle-down"></i></a>
+                        <ul class="droap_menu">
+                            <li><a href="agencies.html">Agencies</a></li>
+                            <li><a href="agencies_details.html">Agencies Details</a></li>
+                            <li><a href="blog_details.html">blog details</a></li>
+                            <li><a href="agent.html">Agent</a></li>
+                            <li><a href="agent_details.html">Agent Details</a></li>
+                            <li><a href="pricing_plan.html">pricing plan</a></li>
+                            <li><a href="checkout.html">checkout</a></li>
+                            <li><a href="payment.html">payment</a></li>
+                            <li><a href="error.html">error</a></li>
+                            <li><a href="faq.html">FAQ's</a></li>
+                            <li><a href="sign_in.html">sign in</a></li>
+                            <li><a href="sign_up.html">sign up</a></li>
+                            <li><a href="forgot_password.html">forgot password</a></li>
+                            <li><a href="privacy_policy.html">privacy policy</a></li>
+                            <li><a href="terms_condition.html">terms and condition</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog <i class="far fa-angle-down"></i></a>
+                        <ul class="droap_menu">
+                            <li><a href="blog.html">blog</a></li>
+                            <li><a href="blog_details.html">blog detals</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">contact</a>
+                    </li>
+                </ul>
+                <ul class="menu_right d-flex align-items-center">
+                    <li>
+                        <a class="user_icon" href="dashboard.html">
+                            <span> <img src="assets/images/user_icon_1.png" alt="user" class="img-fluid w-100">
+                            </span>
+                            Profile
+                        </a>
+                    </li>
+                    <li class="manu_btn">
+                        <a class="common_btn" href="dashboard_add_property.html">Add Listing</a>
+                    </li>
+                    <li>
+                        <div class="toggol_bar" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                            aria-controls="offcanvasRight">
+                            <span class="toggol_bar_1"></span>
+                            <span class="toggol_bar_2"></span>
+                            <span class="toggol_bar_1"></span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- main menu end-->
+
+</pre>
+
+                        <br />
+                        <p>Search the name "header-menu" in the HTML files by opening the files in your code editor and
+                            add your own menu item to that ul li item. and if you want to add dropdown menu just make a
+                            nesting ul li.</p>
+
+                        <br />
+
+                        <h3 class="content-title">Footer Copyright</h3>
+                        <br />
+                        <pre class="code" data-language="html">
+
+    <!-- footer copyright -->
+    <div class="copy_right wow fadeInUp" data-wow-duration="1.5s">
+        <div class="container container_large">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="copyright_area d-flex flex-wrap justify-content-between">
+                        <p>© 2024 MaxLand All Rights Reserved</p>
+                        <ul class="d-flex flex-wrap">
+                            <li><a href="privacy_policy.html">Privacy Policy </a></li>
+                            <li><a href="terms_condition.html">Term of Service</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer copyright -->
+                </pre>
+
+                        <br />
+                        <p>Search the name "copyright" in the HTML files by opening the files in your code editor and
+                            add your own copyright.</p>
+
+                    </div>
+
+            </section>
+
+            <!--Sources and Credits-->
+            <section class="section sources-credits" id="sources-credits">
+                <div class="sec-title">
+                    <span class="icon fa fa-credit-card"></span>
+                    <h2>Sources and Credits</h2>
+                </div>
+
+                <br>
+                <div class="sec-content">
+
+                    <br>
+                    <p><strong> Plugins Used Are :</strong></p>
+
+                    <p><a href="https://jqueryniceselect.hernansartorio.com/" target="_blank">Nice Select</a> (can be
+                        located in js folder)</p>
+
+                    <p><a href="https://github.com/aamirafridi/jQuery.Marquee" target="_blank">Marquee</a> (can be
+                        located in js folder)</p>
+
+                    <p><a href="https://www.jqueryscript.net/demo/Responsive-Animated-Progress-Bar-With-jQuery-CSS3-Barfiller-js/"
+                            target="_blank">Barfiller </a> (can be located in js folder)</p>
+
+                    <p><a href="https://kenwheeler.github.io/slick/" target="_blank">Slick Slider</a> (can
+                        be located in js folder)</p>
+
+                    <p><a href="https://codepen.io/ig_design/pen/yrwgwO" target="_blank">Scroll Button</a> (can be
+                        located in js folder)</p>
+
+                    <p><a href="https://jeesite.gitee.io/front/jquery-select2/4.0/index.htm" target="_blank">Select 2
+                            js</a> (can be located in js folder)</p>
+
+                    <p><a href="https://www.jqueryscript.net/demo/sticky-sidebar-block/" target="_blank">Sticky
+                            Sidebar</a> (can be located in js folder)</p>
+
+                    <p><a href="https://github.com/summernote/summernote?tab=readme-ov-file"
+                            target="_blank">Summernote</a> (can be located in plugins folder)</p>
+
+                    <p><a href="https://wowjs.uk/" target="_blank">Wow Js</a> (can be located in plugins folder)</p>
+
+                    <p><a href="https://www.jqueryscript.net/other/youtube-video-fullscreen-background.html"
+                            target="_blank">Youtube-video-background</a> (can be located in plugins folder)</p>
+
+                    <p><a href="https://www.jqueryscript.net/demo/animated-column-chart-array/"
+                            target="_blank">Simple-bar-graph</a> (can
+                        be located in plugins folder)</p>
+
+                    <br>
+                    Every Code is properly commented for Editing Ease.
+                </div>
+
+            </section>
+
+            <!--Support-->
+            <section class="section support" id="support">
+                <div class="sec-title">
+                    <span class="icon fa fa-support"></span>
+                    <h2>Support</h2>
+                </div>
+
+                <br>
+                <div class="sec-content">
+
+                    <h3>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad
+                        to help you if you have any questions relating to this theme. No guarantees, but I'll do my best
+                        to assist. If you have any queries, please feel free to contact us at Support Center.</h3>
+
+
+                </div>
+
+            </section>
+
+
+        </div>
+
+
+    </div>
+    <!--End pagewrapper-->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nav.js"></script>
+    <script src="js/jquery.scrollTo.js"></script>
+    <script src="js/scrollbar.js"></script>
+    <script src="js/prism.js"></script>
+    <script src="js/jquery.highlight.js"></script>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
